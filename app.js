@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 1000000000;
 let numeroSecreto = gerarNumeroAleatorio ();
 let tentativas = 1;
 
@@ -12,7 +12,7 @@ responsiveVoice.speak (Texto,'Brazilian Portuguese Female', {rate:1.2});
 }
 function exibirMensagemInicial() {
     exibiTextoNaTela ('h1','Jogo do número secreto');
-    exibiTextoNaTela ('p','Escolha um número entre 1 e 10')
+    exibiTextoNaTela ('p','Escolha um número entre 1 e 1000000000')
 }
 exibirMensagemInicial();
 
